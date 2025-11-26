@@ -1,0 +1,17 @@
+{
+  "name": "base-scripts",
+  "version": "1.0.0",
+  "description": "Useful scripts for Base builders: deploy, verify, gas tools.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network base",
+    "verify": "node scripts/verify-on-basescan.js"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "axios": "^1.3.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.0.0"
+  }
+}
