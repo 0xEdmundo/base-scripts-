@@ -1,0 +1,22 @@
+# Ignore environment variables
+.env
+*.env
+
+# Ignore node modules
+node_modules/
+
+# Ignore Hardhat cache and build files
+cache/
+artifacts/
+
+# MacOS clutter
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary files
+.tmp/
